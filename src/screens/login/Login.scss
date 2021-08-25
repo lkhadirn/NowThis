@@ -1,0 +1,20 @@
+@import "../../constants/colors";
+
+.imageContainer {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 30px 30px 0px;
+  //   background-color: rgba($primaryColor, 0.15);
+}
+.glassContainer {
+  padding: 10px;
+  background-color: rgba($whiteColor, 0.60);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  width: 80%;
+  height: 80%;
+
+}
+

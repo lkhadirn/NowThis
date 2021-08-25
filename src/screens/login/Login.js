@@ -8,34 +8,27 @@ import {
   Col,
   Container,
 } from "react-bootstrap";
+import "./Login.scss";
 
 function Login() {
   return (
-    <Container
-      //fluid="sm"
-      className="min-vh-100"
-    >
+    <Container fluid className="min-vh-100">
       <Row
-        className="min-vh-100"
-        style={{
-          backgroundColor: "green",
-        }}
+        className="min-vh-100 "
+        style={
+          {
+            // backgroundColor: "green",
+          }
+        }
       >
-        <Col
-        // style={{
-        //   backgroundColor: "blue",
-        // }}
-        >
+        <Col lg={6} className="p-0">
           <div
-            className="w-100 h-100 d-flex align-items-center justify-content-center"
+            className="imageContainer w-100 h-100 d-flex align-items-center justify-content-center"
             style={{
-              backgroundImage: `url('${process.env.PUBLIC_URL}/img/loginImage.jpg')`,
-              // backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
+              backgroundImage: `url('${process.env.PUBLIC_URL}/images/loginImage4.jpg')`,
             }}
           >
-            <div>
+            <div className="glassContainer">
               <p>Be more Prodcutive</p>
             </div>
           </div>
